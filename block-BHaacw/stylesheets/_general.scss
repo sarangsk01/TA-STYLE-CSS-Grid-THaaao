@@ -1,0 +1,61 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+h1{
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+h1{
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+h2,h3,h4,h5,h6{
+    padding: 0.1rem;
+    font-size: 1.3rem;
+    color: darkslategray;
+}
+h6{
+    background-color: blue;
+    color: white;
+    padding: 0.8rem;
+}
+p{
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    color: darkslategray;
+}
+.btn{
+    font-size: 0.9rem;
+    color: red;
+
+}
+.btn-3{
+    background-color: red;
+    padding: 0.6rem;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+body{
+    font-family: $font;
+    background-color: darkslategray;
+}
+.header{
+    color: blue;
+}
+.cat-image{
+    margin: 0 auto;
+}
+.image-2{
+    text-align: center;
+}
+.width-100{
+    width: 100%;
+}
