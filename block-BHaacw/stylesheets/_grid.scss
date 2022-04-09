@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    padding: 2rem 3rem;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 50px 150px 150px 150px;
+    grid-template-areas: "header-1 header-2 header-3 header-4 header-5 header-6" 
+                         "sidebar-l . main . sidebar-r ." 
+                          "sidebar-l2 . . . sidebar-r2 ." 
+                          ". . . . sidebar-r3 .";
+    gap: 1rem;
+}
+.header-1{
+    grid-area: header-1;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.sidebar-l{
+    grid-area: sidebar-l;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.main{
+    grid-area: main;
+    grid-column: span 2;
+    grid-row: span 3;
+    display: grid;
+
+}
+.sidebar-r{
+    grid-area: sidebar-r;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.sidebar-l2{
+    grid-area: sidebar-l2;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.sidebar-r2{
+    grid-area: sidebar-r2;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.sidebar-r3{
+    grid-area: sidebar-r3;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.item{
+    padding: 1rem;
+    background-color: white;
+    border-top: 2px solid blue;
+    // text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
