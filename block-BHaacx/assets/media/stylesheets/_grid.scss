@@ -1,0 +1,15 @@
+.navbar{
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.item-main{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px 250px 250px 250px;
+}
+.item1,.item2,.item3,.item10,.item11,.item12,.item13,.item14{
+    grid-column: span 2;
+    background-color: aqua;
+}
